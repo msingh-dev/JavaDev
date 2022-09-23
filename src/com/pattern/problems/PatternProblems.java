@@ -15,7 +15,6 @@ public class PatternProblems {
 	private static void squarePattern(int number) {
 		System.out.println("Entering method squarePattern");
 
-		int a = 1;
 		for(int i = 0 ; i < number ; i++) {
 			for(int j = 0; j < number ; j++) {
 				System.out.print("*");
